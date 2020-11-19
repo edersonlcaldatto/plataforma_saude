@@ -74,7 +74,7 @@ public class LaudoServiceImplTest {
         laudo.setTexto(texto);
         laudoService.editar(laudo);
 
-        Assert.assertTrue(this.laudoService.findById(2).getTexto() == texto);
+        Assert.assertTrue(this.laudoService.findById(1).getTexto() == texto);
 
     }
 

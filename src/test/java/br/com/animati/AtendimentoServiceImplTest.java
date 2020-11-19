@@ -61,7 +61,7 @@ public class AtendimentoServiceImplTest {
         atendimento.setNomeProcedimento(nomeProcedimento);
         atendimentoService.editar(atendimento);
 
-        Assert.assertTrue(this.atendimentoService.findById(2).getNomeProcedimento() == nomeProcedimento);
+        Assert.assertTrue(this.atendimentoService.findById(1).getNomeProcedimento() == nomeProcedimento);
 
     }
 
